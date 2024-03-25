@@ -1,0 +1,119 @@
+.xAxis path,
+.xAxis line {
+  stroke: teal;
+  shape-rendering: crispEdges;
+}
+.xAxis text {
+  font-family: Optima, Futura, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  fill: teal;
+}
+
+.node rect {
+  fill: #ffffff;
+  stroke: steelblue;
+  stroke-width: 3px;
+
+}
+/* node styling */
+.node.car-info rect {
+  fill: blue !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.reasearch rect {
+  fill: rgb(195, 20, 195) !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.external rect {
+  fill:pink !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.internal rect {
+  fill: mediumorchid !important; /* Example color for nodes with name "Car-Info" */
+}.node.b2b rect {
+  fill: aqua !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.b2c rect {
+  fill: yellowgreen !important; /* Example color for nodes with name "Car-Info" */
+}
+
+
+.node.online rect {
+  fill: green !important; /* Example color for nodes with name "Car-Info" */
+
+}
+
+
+
+.node.interview rect {
+  fill: gold !important; /* Example color for nodes with name "Car-Info" */
+}.node.public-data rect {
+  fill: skyblue !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.health rect {
+  fill: royalblue !important; /* Example color for nodes with name "Car-Info" */
+}
+
+.node.planning rect {
+  fill: hotpink !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.designing rect {
+  fill: magenta !important; /* Example color for nodes with name "Car-Info" */
+}.node.manufacturing rect {
+  fill: rgb(147, 200, 142) !important; /* Example color for nodes with name "Car-Info" */
+}.node.node.sales-marketing rect {
+  fill: wheat !important; /* Example color for nodes with name "Car-Info" */
+}.node.prd rect {
+  fill: khaki !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.spacs rect {
+  fill: mediumvioletred !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.hardwere rect {
+  fill: lawngreen !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.softwere rect {
+  fill: aquamarine !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.material rect {
+  fill: mediumslateblue !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.production rect {
+  fill: firebrick !important; /* Example color for nodes with name "Car-Info" */
+}
+.node.dealership rect {
+  fill: red !important; /* Example color for nodes with name "Car-Info" */
+}
+/* node styling end  */
+
+.node text {
+  font: 12px sans-serif;
+  
+}
+.card {
+  display: none;
+  position: fixed;
+  right: 10px;
+
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.link {
+  fill: none;
+  stroke: #00000041;
+  stroke-width: 2px;
+}
+.container{
+  margin-left: 20px !important;
+  padding: 20px !important;
+  background-image:  url(/js/2.jpg) ;
+}
+a{
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 50px;
+  color: darkviolet;
+}
